@@ -10,7 +10,7 @@ int binarysearch(int e, int* a, int size) {
       end = middle_index - 1;
     } else if (e > a[middle_index]) {
       start = middle_index + 1;
-    } else if (e == a[middle_index]) {
+    } else {
       return e;
     }
   }
